@@ -1,50 +1,33 @@
-# Welcome to your Expo app 👋
+# To Do List App - With React Native 
+A simple to-do list app. The development process is available on my YouTube channel. If you want to watch [click here](https://www.youtube.com/watch?v=UgNCM6sSLT8&list=PLC2TtO9GyLvQ76WzYA2vnh3FocgQVyggj). (Only in Turkish)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Features
 
-## Get started
+- You can add as many tasks as you want. The application can check whether the same task has been added. 
+- You can complete the task by simply long tapping on the task cards. The design will change accordingly. You can also long tap the completed task to delete it from the list. 
+- The community-developed [React Native Modal](https://github.com/react-native-modal/react-native-modal) package is used for the task insertion window. 
 
-1. Install dependencies
+## Real Android Device ScreenShots
 
-   ```bash
-   npm install
-   ```
+<div align="center">
+<img src="./assets/home.png" width="640" height="416" /><img/>
+</div>
 
-2. Start the app
+## Installation
 
-   ```bash
-    npx expo start
-   ```
+Clone this repository on your local machine.
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```
+git clone https://github.com/JulioAmaral007/ToDo-app.git
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Usage
 
-## Learn more
+Run the following commands in the project folder to install the project dependencies.
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```
+npm init
+npm install
+npm run start
+```
+These instructions will get a copy of the project up and running on your local machine for development and testing purposes.
