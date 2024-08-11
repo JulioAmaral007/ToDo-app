@@ -1,11 +1,10 @@
 # To Do List App - With React Native 
-A simple to-do list app. The development process is available on my YouTube channel. If you want to watch [click here](https://www.youtube.com/watch?v=UgNCM6sSLT8&list=PLC2TtO9GyLvQ76WzYA2vnh3FocgQVyggj). (Only in Turkish)
+A simple to-do list app.
 
 ## Features
 
-- You can add as many tasks as you want. The application can check whether the same task has been added. 
-- You can complete the task by simply long tapping on the task cards. The design will change accordingly. You can also long tap the completed task to delete it from the list. 
-- The community-developed [React Native Modal](https://github.com/react-native-modal/react-native-modal) package is used for the task insertion window. 
+- You can add as many tasks as you want. 
+- You can complete the task by simply touching the little ball to the left of the task. 
 
 ## Real Android Device ScreenShots
 
